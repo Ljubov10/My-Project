@@ -1,0 +1,100 @@
+ul {
+    padding: 2rem;
+}
+
+li {
+    display: inline-block;  
+}
+
+a {
+    font-size: 20px;
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(182, 181, 181);
+
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse; 
+    margin: auto; 
+    width: 95%; 
+    height: 200px;
+    border: solid; 
+    border-width: 1px
+}
+
+* {
+    margin: 0%;
+}
+
+header {
+    background: linear-gradient(#323232, #2e2e2e);
+    display: flex;
+}
+
+img {
+    padding: 2rem;
+    width: 100px;
+    border-radius: 0.2rem;
+}
+
+h2 {
+    padding: 3rem;
+}
+
+button {
+    text-align: center;
+    width: 10%;
+    float: center;
+    color: blue;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 1rem;
+
+}
+
+.row > div {
+    width: 45%;
+}
+
+.row input {
+    padding: 0.8rem;
+    border: 1px solid #b3b3b3;
+    border-radius: 0.2rem;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rgb(42, 92, 255);
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+}
